@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Burger_W__Camembert__Onion_Confit___Arugula-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

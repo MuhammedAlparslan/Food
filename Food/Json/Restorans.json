@@ -1,0 +1,92 @@
+[
+        {
+                "name"      : "Burger King",
+                "image"     : "Hamburger BURGER KING Logo Restaurant PNG - Free Download",
+                "restorans"  :  [
+                    {
+                        "name"  : "Whopper",
+                        "image" : "Buffalo_Burger_Egypt-removebg-preview",
+                        "price" : "6.90 ₼",
+                    },
+                    {
+                        "name"  : "Cheesey Joe",
+                        "image" : "Burger_W__Camembert__Onion_Confit___Arugula-removebg-preview",
+                        "price" : "7.90 ₼",
+                    },
+                    {
+                        "name"  : "Double Cheeseburger",
+                        "image" : "VOYOU_BURGER-removebg-preview",
+                        "price" : "5.70 ₼",
+                    },
+                    {
+                        "name"  : "Double Wopper",
+                        "image" : "Buffalo_Burger_Egypt-removebg-preview",
+                        "price" : "10.40 ₼",
+                    },
+                    {
+                        "name"  : "Cheeseburger",
+                        "image" : "Burger_W__Camembert__Onion_Confit___Arugula-removebg-preview",
+                        "price" : "3.40 ₼",
+                    },
+                    {
+                        "name"  : "Hamburger",
+                        "image" : "VOYOU_BURGER-removebg-preview",
+                        "price" : "2.90 ₼",
+                    },
+                    {
+                        "name"  : "Big King",
+                        "image" : "Buffalo_Burger_Egypt-removebg-preview",
+                        "price" : "6.20 ₼",
+                        
+                        }
+                ]
+                
+                    },
+                    {
+                        "name"    : "Mc Donalds",
+                        "image"   : "MC donald´s",
+                        "restorans": [
+                   
+                    {
+                        "name"  : "Beef Fresh",
+                        "image" : "Burger_W__Camembert__Onion_Confit___Arugula-removebg-preview",
+                        "price" : "7.50 ₼",
+                    },
+                    {
+                        "name"  : "Chicken Fresh",
+                        "image" : "Buffalo_Burger_Egypt-removebg-preview",
+                        "price" : "6.10 ₼",
+                    },
+                    {
+                        "name"  : "Fish Fresh",
+                        "image" : "VOYOU_BURGER-removebg-preview",
+                        "price" : "6.90 ₼",
+                    },
+                    {
+                        "name"  : "Cheese Deluxe mini",
+                        "image" : "Burger_W__Camembert__Onion_Confit___Arugula-removebg-preview",
+                        "price" : "4.25 ₼",
+                    },
+                    {
+                        "name"  : "Double Hamburger",
+                        "image" : "VOYOU_BURGER-removebg-preview",
+                        "price" : "3.95 ₼",
+                    },
+                    {
+                        "name"  : "Hamburger",
+                        "image" : "Buffalo_Burger_Egypt-removebg-preview",
+                        "price" : "2.20 ₼",
+                    },
+                    {
+                        "name"  : "CheeseBurger",
+                        "image" : "Burger_W__Camembert__Onion_Confit___Arugula-removebg-preview",
+                        "price" : "2.60 ₼",
+                    },
+                    {
+                        "name"  : "McChicken",
+                        "image" : "VOYOU_BURGER-removebg-preview",
+                        "price" : "4.20 ₼",
+                    }
+                ]
+            }
+]

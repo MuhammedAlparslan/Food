@@ -7,25 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074FB22B29C77DF2009DB3C9 /* OrdersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074FB22A29C77DF2009DB3C9 /* OrdersViewCell.swift */; };
+		074FB22D29C78690009DB3C9 /* 84561-order-completed-lottie-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 074FB22C29C78690009DB3C9 /* 84561-order-completed-lottie-animation.json */; };
+		074FB22F29C786CE009DB3C9 /* 33275-cards-payment.json in Resources */ = {isa = PBXBuildFile; fileRef = 074FB22E29C786CE009DB3C9 /* 33275-cards-payment.json */; };
+		074FB23129C786FC009DB3C9 /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074FB23029C786FC009DB3C9 /* OrderController.swift */; };
+		074FB23329C78795009DB3C9 /* CardAddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074FB23229C78795009DB3C9 /* CardAddController.swift */; };
+		0754CDB129C5D5AE0013355E /* BasketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754CDB029C5D5AE0013355E /* BasketController.swift */; };
 		077BD97E29C327C900F5BD49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077BD97D29C327C900F5BD49 /* AppDelegate.swift */; };
 		077BD98029C327C900F5BD49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077BD97F29C327C900F5BD49 /* SceneDelegate.swift */; };
-		077BD98229C327C900F5BD49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077BD98129C327C900F5BD49 /* ViewController.swift */; };
+		077BD98229C327C900F5BD49 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077BD98129C327C900F5BD49 /* LoginController.swift */; };
 		077BD98529C327C900F5BD49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077BD98329C327C900F5BD49 /* Main.storyboard */; };
 		077BD98829C327C900F5BD49 /* Food.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 077BD98629C327C900F5BD49 /* Food.xcdatamodeld */; };
 		077BD98A29C327CA00F5BD49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077BD98929C327CA00F5BD49 /* Assets.xcassets */; };
 		077BD98D29C327CA00F5BD49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077BD98B29C327CA00F5BD49 /* LaunchScreen.storyboard */; };
+		077BD99729C328CF00F5BD49 /* 10818-food-around-the-city.json in Resources */ = {isa = PBXBuildFile; fileRef = 077BD99629C328CF00F5BD49 /* 10818-food-around-the-city.json */; };
+		077BD99929C334B200F5BD49 /* RestoranNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077BD99829C334B200F5BD49 /* RestoranNameController.swift */; };
+		077BD99C29C3350C00F5BD49 /* RestoranNameViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077BD99B29C3350C00F5BD49 /* RestoranNameViewCell.swift */; };
+		077BD99E29C335CF00F5BD49 /* Restorans.json in Resources */ = {isa = PBXBuildFile; fileRef = 077BD99D29C335CF00F5BD49 /* Restorans.json */; };
+		077BD9A129C3361100F5BD49 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077BD9A029C3361100F5BD49 /* Struct.swift */; };
+		077BD9A329C33D8000F5BD49 /* 134945-zpunet-icon.json in Resources */ = {isa = PBXBuildFile; fileRef = 077BD9A229C33D8000F5BD49 /* 134945-zpunet-icon.json */; };
+		077BD9A529C344AD00F5BD49 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077BD9A429C344AD00F5BD49 /* RegisterController.swift */; };
+		077E8CD529C4E68F006BA110 /* 131438-junk-food-animation-for-websoite.json in Resources */ = {isa = PBXBuildFile; fileRef = 077E8CD429C4E68E006BA110 /* 131438-junk-food-animation-for-websoite.json */; };
+		07A4CC2629C36A58001E9C52 /* ProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4CC2529C36A58001E9C52 /* ProductViewCell.swift */; };
+		07A4CC3029C37D54001E9C52 /* ProductListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4CC2F29C37D54001E9C52 /* ProductListController.swift */; };
+		07A6235229C4625800206DE5 /* ChooseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A6235129C4625800206DE5 /* ChooseController.swift */; };
+		A9EE7E9930C5494D253306D3 /* Pods_Food.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9F2C95BB11343A6A3E82D4 /* Pods_Food.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		074FB22A29C77DF2009DB3C9 /* OrdersViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewCell.swift; sourceTree = "<group>"; };
+		074FB22C29C78690009DB3C9 /* 84561-order-completed-lottie-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "84561-order-completed-lottie-animation.json"; sourceTree = "<group>"; };
+		074FB22E29C786CE009DB3C9 /* 33275-cards-payment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "33275-cards-payment.json"; sourceTree = "<group>"; };
+		074FB23029C786FC009DB3C9 /* OrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderController.swift; sourceTree = "<group>"; };
+		074FB23229C78795009DB3C9 /* CardAddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAddController.swift; sourceTree = "<group>"; };
+		0754CDB029C5D5AE0013355E /* BasketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketController.swift; sourceTree = "<group>"; };
 		077BD97A29C327C900F5BD49 /* Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Food.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		077BD97D29C327C900F5BD49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		077BD97F29C327C900F5BD49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		077BD98129C327C900F5BD49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		077BD98129C327C900F5BD49 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		077BD98429C327C900F5BD49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		077BD98729C327C900F5BD49 /* Food.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food.xcdatamodel; sourceTree = "<group>"; };
 		077BD98929C327CA00F5BD49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		077BD98C29C327CA00F5BD49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		077BD98E29C327CA00F5BD49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077BD99629C328CF00F5BD49 /* 10818-food-around-the-city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "10818-food-around-the-city.json"; sourceTree = "<group>"; };
+		077BD99829C334B200F5BD49 /* RestoranNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoranNameController.swift; sourceTree = "<group>"; };
+		077BD99B29C3350C00F5BD49 /* RestoranNameViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoranNameViewCell.swift; sourceTree = "<group>"; };
+		077BD99D29C335CF00F5BD49 /* Restorans.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Restorans.json; sourceTree = "<group>"; };
+		077BD9A029C3361100F5BD49 /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		077BD9A229C33D8000F5BD49 /* 134945-zpunet-icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "134945-zpunet-icon.json"; sourceTree = "<group>"; };
+		077BD9A429C344AD00F5BD49 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		077E8CD429C4E68E006BA110 /* 131438-junk-food-animation-for-websoite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "131438-junk-food-animation-for-websoite.json"; sourceTree = "<group>"; };
+		07A4CC2529C36A58001E9C52 /* ProductViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewCell.swift; sourceTree = "<group>"; };
+		07A4CC2F29C37D54001E9C52 /* ProductListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListController.swift; sourceTree = "<group>"; };
+		07A6235129C4625800206DE5 /* ChooseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseController.swift; sourceTree = "<group>"; };
+		2044E9D45FD5DAE24F00292D /* Pods-Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food.release.xcconfig"; path = "Target Support Files/Pods-Food/Pods-Food.release.xcconfig"; sourceTree = "<group>"; };
+		3D9F2C95BB11343A6A3E82D4 /* Pods_Food.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5DBF8AB7524C4681A999B5 /* Pods-Food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food.debug.xcconfig"; path = "Target Support Files/Pods-Food/Pods-Food.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9EE7E9930C5494D253306D3 /* Pods_Food.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +83,8 @@
 			children = (
 				077BD97C29C327C900F5BD49 /* Food */,
 				077BD97B29C327C900F5BD49 /* Products */,
+				EEC02723EE8495949D981DE2 /* Pods */,
+				6E4B7AC541E9A1E87AD7347E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +99,18 @@
 		077BD97C29C327C900F5BD49 /* Food */ = {
 			isa = PBXGroup;
 			children = (
-				077BD97D29C327C900F5BD49 /* AppDelegate.swift */,
-				077BD97F29C327C900F5BD49 /* SceneDelegate.swift */,
-				077BD98129C327C900F5BD49 /* ViewController.swift */,
+				077BD99429C3282800F5BD49 /* App */,
+				077BD99529C328BE00F5BD49 /* Json */,
+				077BD99A29C334EA00F5BD49 /* Cell */,
+				077BD99F29C335F000F5BD49 /* Struct */,
+				077BD98129C327C900F5BD49 /* LoginController.swift */,
+				077BD9A429C344AD00F5BD49 /* RegisterController.swift */,
+				077BD99829C334B200F5BD49 /* RestoranNameController.swift */,
+				07A4CC2F29C37D54001E9C52 /* ProductListController.swift */,
+				07A6235129C4625800206DE5 /* ChooseController.swift */,
+				0754CDB029C5D5AE0013355E /* BasketController.swift */,
+				074FB23029C786FC009DB3C9 /* OrderController.swift */,
+				074FB23229C78795009DB3C9 /* CardAddController.swift */,
 				077BD98329C327C900F5BD49 /* Main.storyboard */,
 				077BD98929C327CA00F5BD49 /* Assets.xcassets */,
 				077BD98B29C327CA00F5BD49 /* LaunchScreen.storyboard */,
@@ -70,6 +120,64 @@
 			path = Food;
 			sourceTree = "<group>";
 		};
+		077BD99429C3282800F5BD49 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				077BD97D29C327C900F5BD49 /* AppDelegate.swift */,
+				077BD97F29C327C900F5BD49 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		077BD99529C328BE00F5BD49 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				077BD99629C328CF00F5BD49 /* 10818-food-around-the-city.json */,
+				077BD9A229C33D8000F5BD49 /* 134945-zpunet-icon.json */,
+				077E8CD429C4E68E006BA110 /* 131438-junk-food-animation-for-websoite.json */,
+				074FB22C29C78690009DB3C9 /* 84561-order-completed-lottie-animation.json */,
+				074FB22E29C786CE009DB3C9 /* 33275-cards-payment.json */,
+				077BD99D29C335CF00F5BD49 /* Restorans.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		077BD99A29C334EA00F5BD49 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				077BD99B29C3350C00F5BD49 /* RestoranNameViewCell.swift */,
+				07A4CC2529C36A58001E9C52 /* ProductViewCell.swift */,
+				074FB22A29C77DF2009DB3C9 /* OrdersViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		077BD99F29C335F000F5BD49 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				077BD9A029C3361100F5BD49 /* Struct.swift */,
+			);
+			name = Struct;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6E4B7AC541E9A1E87AD7347E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D9F2C95BB11343A6A3E82D4 /* Pods_Food.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEC02723EE8495949D981DE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B5DBF8AB7524C4681A999B5 /* Pods-Food.debug.xcconfig */,
+				2044E9D45FD5DAE24F00292D /* Pods-Food.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 077BD99129C327CA00F5BD49 /* Build configuration list for PBXNativeTarget "Food" */;
 			buildPhases = (
+				8FEE938A3A8DD32D3D1906A5 /* [CP] Check Pods Manifest.lock */,
 				077BD97629C327C900F5BD49 /* Sources */,
 				077BD97729C327C900F5BD49 /* Frameworks */,
 				077BD97829C327C900F5BD49 /* Resources */,
+				4B9CAE9E6B8D6E8F5326118E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,23 +238,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077BD99729C328CF00F5BD49 /* 10818-food-around-the-city.json in Resources */,
+				074FB22D29C78690009DB3C9 /* 84561-order-completed-lottie-animation.json in Resources */,
+				077BD99E29C335CF00F5BD49 /* Restorans.json in Resources */,
+				077BD9A329C33D8000F5BD49 /* 134945-zpunet-icon.json in Resources */,
+				077E8CD529C4E68F006BA110 /* 131438-junk-food-animation-for-websoite.json in Resources */,
 				077BD98D29C327CA00F5BD49 /* LaunchScreen.storyboard in Resources */,
 				077BD98A29C327CA00F5BD49 /* Assets.xcassets in Resources */,
+				074FB22F29C786CE009DB3C9 /* 33275-cards-payment.json in Resources */,
 				077BD98529C327C900F5BD49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B9CAE9E6B8D6E8F5326118E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food/Pods-Food-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food/Pods-Food-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Food/Pods-Food-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FEE938A3A8DD32D3D1906A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Food-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		077BD97629C327C900F5BD49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				077BD98229C327C900F5BD49 /* ViewController.swift in Sources */,
+				077BD99929C334B200F5BD49 /* RestoranNameController.swift in Sources */,
+				074FB23329C78795009DB3C9 /* CardAddController.swift in Sources */,
+				077BD98229C327C900F5BD49 /* LoginController.swift in Sources */,
+				07A4CC3029C37D54001E9C52 /* ProductListController.swift in Sources */,
+				0754CDB129C5D5AE0013355E /* BasketController.swift in Sources */,
 				077BD98829C327C900F5BD49 /* Food.xcdatamodeld in Sources */,
+				07A6235229C4625800206DE5 /* ChooseController.swift in Sources */,
+				074FB23129C786FC009DB3C9 /* OrderController.swift in Sources */,
 				077BD97E29C327C900F5BD49 /* AppDelegate.swift in Sources */,
+				077BD9A529C344AD00F5BD49 /* RegisterController.swift in Sources */,
 				077BD98029C327C900F5BD49 /* SceneDelegate.swift in Sources */,
+				077BD9A129C3361100F5BD49 /* Struct.swift in Sources */,
+				074FB22B29C77DF2009DB3C9 /* OrdersViewCell.swift in Sources */,
+				07A4CC2629C36A58001E9C52 /* ProductViewCell.swift in Sources */,
+				077BD99C29C3350C00F5BD49 /* RestoranNameViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +455,7 @@
 		};
 		077BD99229C327CA00F5BD49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5DBF8AB7524C4681A999B5 /* Pods-Food.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +483,7 @@
 		};
 		077BD99329C327CA00F5BD49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2044E9D45FD5DAE24F00292D /* Pods-Food.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
