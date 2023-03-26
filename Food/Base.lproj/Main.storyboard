@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Knc-c9-Xjs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -105,7 +105,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="wN3-kW-URI">
-                                <rect key="frame" x="0.0" y="14" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="58" width="393" height="715"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RestoranNameViewCell" id="wZx-J8-dLk" customClass="RestoranNameViewCell" customModule="Food" customModuleProvider="target">
@@ -149,13 +149,20 @@
                             <constraint firstAttribute="trailing" secondItem="wN3-kW-URI" secondAttribute="trailing" id="uo9-ta-tl0"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="0ym-Vd-zQG">
+                        <barButtonItem key="leftBarButtonItem" title="LogOut" id="LLy-0L-q5W">
+                            <connections>
+                                <action selector="logOutClicked:" destination="Kot-cA-OhN" id="89p-cT-XIX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="restoranNameTableView" destination="wN3-kW-URI" id="gRq-u7-DYw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O6w-EC-gc2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2754.9618320610684" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="4608.3969465648852" y="3.5211267605633805"/>
         </scene>
         <!--Register Controller-->
         <scene sceneID="SAp-te-rjN">
@@ -239,6 +246,7 @@
                             <constraint firstItem="zwg-9O-bi6" firstAttribute="bottom" secondItem="4we-Dk-mds" secondAttribute="bottom" constant="287" id="xs0-Qi-ez8"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="1jc-Da-4By"/>
                     <connections>
                         <outlet property="registerAnimationView" destination="Eze-JB-qhe" id="0Ky-ZB-FcG"/>
                         <outlet property="registerBirthdateText" destination="rzg-GL-h2S" id="gor-Z6-c5L"/>
@@ -249,12 +257,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w3r-Az-5V3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1922.9007633587785" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="1967" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OOc-7t-0uD">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Knc-c9-Xjs" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="loginNav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Knc-c9-Xjs" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="x6m-04-X4N">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -367,7 +375,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4p-cl-T7u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3568.7022900763359" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="5422.1374045801522" y="3.5211267605633805"/>
         </scene>
         <!--Basket Controller-->
         <scene sceneID="27m-hB-bqR">
@@ -460,13 +468,14 @@
                             <constraint firstItem="utx-iF-NuU" firstAttribute="top" secondItem="3yU-eE-srR" secondAttribute="top" id="lDI-hC-9hA"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="2j4-rD-Tza"/>
                     <connections>
                         <outlet property="orderCollectionView" destination="utx-iF-NuU" id="vTc-Bg-tgC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oRo-qQ-Pjt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5183.9694656488546" y="7.746478873239437"/>
+            <point key="canvasLocation" x="7106" y="4"/>
         </scene>
         <!--Order Controller-->
         <scene sceneID="Wmq-Yd-6Rw">
@@ -568,7 +577,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rc6-1Z-OB2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5990.0763358778622" y="7.746478873239437"/>
+            <point key="canvasLocation" x="8230" y="4"/>
         </scene>
         <!--Card Add Controller-->
         <scene sceneID="kdz-mS-PX0">
@@ -648,6 +657,7 @@
                             <constraint firstItem="HhJ-x2-4tf" firstAttribute="trailing" secondItem="7cW-Ow-bYr" secondAttribute="trailing" constant="7" id="yvf-CW-8R6"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="VlS-FT-IkW"/>
                     <connections>
                         <outlet property="addCVC" destination="669-vD-lf2" id="hQs-Vs-AgO"/>
                         <outlet property="addCardD" destination="AQe-xB-cYr" id="xoZ-tT-hfN"/>
@@ -658,7 +668,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dTo-Rl-L3n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6802" y="4"/>
+            <point key="canvasLocation" x="10507.633587786258" y="3.5211267605633805"/>
         </scene>
         <!--Choose Controller-->
         <scene sceneID="1vK-fw-a11">
@@ -774,7 +784,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZZc-xM-Bjs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4345.801526717557" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="6199.2366412213742" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yQ6-u4-6EE">
+            <objects>
+                <navigationController storyboardIdentifier="loginOutNav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oZ5-ax-FEQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dEg-5T-fBK">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Kot-cA-OhN" kind="relationship" relationship="rootViewController" id="jCf-ee-OWF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jhA-1n-iVr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3681.679389312977" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <designables>
