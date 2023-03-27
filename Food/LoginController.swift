@@ -77,10 +77,12 @@ class LoginController: UIViewController, DelegateAccount {
                 ProgressHUD.dismiss()
                 if self.loginAccount.contains(where: { $0.emailadress == self.emailadressText.text &&
                     $0.password    == self.passwordText.text }) {
-                    
-                    
-                    let controller = self.storyboard?.instantiateViewController(withIdentifier: "RestoranNameController") as! RestoranNameController
-                    controller.modalPresentationStyle = .fullScreen
+   
+                    if let scene =  UIApplication.shared.connectedScenes.first as? UIWindowScene,
+                       let sceneDelegate = scene.delegate as? SceneDelegate {
+                        UserDefaults.standard.set(false, forKey: "loggedIn")
+                        sceneDelegate.setRootRestaurantController(windowScene: scene)
+                    }
                 }
             }
         }

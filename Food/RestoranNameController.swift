@@ -13,6 +13,7 @@ class RestoranNameController: UIViewController, UITableViewDataSource, UITableVi
     var restaurantList = [RestaurantName]()
  
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,10 +28,12 @@ class RestoranNameController: UIViewController, UITableViewDataSource, UITableVi
     
     
     @IBAction func logOutClicked(_ sender: Any) {
-     
+        if let scene =  UIApplication.shared.connectedScenes.first as? UIWindowScene,
+           let sceneDelegate = scene.delegate as? SceneDelegate {
+            UserDefaults.standard.set(false, forKey: "loggedIn")
+            sceneDelegate.setRootController(windowScene: scene)
         }
-    
-    
+    }
     @objc func basket() {
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "BasketController") as! BasketController
         navigationController?.show(controller, sender: nil)

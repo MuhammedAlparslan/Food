@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if UserDefaults.standard.bool(forKey: "loggedIn") {
             setRootController(windowScene: windowScene)
         } else {
-            setRootLoginController(windowScene: windowScene)
+            setRootRestaurantController(windowScene: windowScene)
         }
     }
 
@@ -33,7 +33,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window?.makeKeyAndVisible()
         }
     
-    func setRootLoginController(windowScene: UIWindowScene) {
+    func setRootRestaurantController(windowScene: UIWindowScene) {
         if window == nil {
             window = UIWindow(windowScene: windowScene)
             }
