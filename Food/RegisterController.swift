@@ -89,7 +89,7 @@ class RegisterController: UIViewController {
                 ProgressHUD.dismiss()
                 self.loginAccount.append(Account( fullname:    self.registerFullnameText.text ?? "",                                                         emailadress:  self.registerEmailText.text ?? "",                                                           password:       self.registerPasswordText.text ?? "",                                                      birthdate:      self.registerBirthdateText.text ?? ""))
                 self.writeToJsonFile()
-                
+
                 self.delegate?.setText(email: self.registerEmailText.text ?? "", password: self.registerPasswordText.text ?? "")
             }
         }

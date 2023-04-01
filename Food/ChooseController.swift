@@ -79,7 +79,9 @@ class ChooseController: UIViewController {
     @IBAction func minusClicked(_ sender: Any) {
         guard let presentValue = Int(numLabel.text!) else { return }
             let newValue       = presentValue - 1
-                numLabel!.text = String(newValue)
+            if newValue > 0 {
+            numLabel!.text = String(newValue)
+        }
     }
     @IBAction func addOrderClicked(_ sender: Any) {
         

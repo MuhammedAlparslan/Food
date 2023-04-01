@@ -289,33 +289,33 @@
                                 <rect key="frame" x="0.0" y="152" width="393" height="666"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iEE-Kt-kGJ">
-                                    <size key="itemSize" width="324" height="134"/>
+                                    <size key="itemSize" width="320" height="134"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductViewCell" id="VbX-xh-AzE" customClass="ProductViewCell" customModule="Food" customModuleProvider="target">
-                                        <rect key="frame" x="34.666666666666664" y="0.0" width="324" height="134"/>
+                                        <rect key="frame" x="36.666666666666664" y="0.0" width="320" height="134"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="T8y-rX-ool">
-                                            <rect key="frame" x="0.0" y="0.0" width="324" height="134"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MwR-21-Py0">
-                                                    <rect key="frame" x="18" y="13" width="136" height="37"/>
+                                                    <rect key="frame" x="18" y="13" width="132" height="37"/>
                                                     <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fpk-nW-Nws">
-                                                    <rect key="frame" x="18" y="77" width="136" height="37"/>
+                                                    <rect key="frame" x="18" y="77" width="132" height="37"/>
                                                     <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GQP-F7-dEn">
-                                                    <rect key="frame" x="166" y="8" width="150" height="120"/>
+                                                    <rect key="frame" x="162" y="8" width="150" height="120"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="150" id="jgn-Bg-xEO"/>
                                                     </constraints>
@@ -335,7 +335,7 @@
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" systemColor="tintColor"/>
-                                        <size key="customSize" width="324" height="134"/>
+                                        <size key="customSize" width="320" height="134"/>
                                         <connections>
                                             <outlet property="productImageView" destination="GQP-F7-dEn" id="kLB-SP-mfq"/>
                                             <outlet property="productNameLabel" destination="MwR-21-Py0" id="WVf-RG-n19"/>
